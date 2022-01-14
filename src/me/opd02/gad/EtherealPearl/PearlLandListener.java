@@ -26,7 +26,6 @@ public class PearlLandListener implements Listener {
 
 	@EventHandler
 	public void onPearlLand(ProjectileHitEvent e){
-		//this is a note
 		if(!e.getEntityType().equals(EntityType.ENDER_PEARL)) return;
 	
 		Player p = (Player) e.getEntity().getShooter();	
