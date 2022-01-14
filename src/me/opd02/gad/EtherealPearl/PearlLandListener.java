@@ -34,7 +34,6 @@ public class PearlLandListener implements Listener {
 		if(p.getWorld().getBlockAt(p.getLocation()).getType() != Material.AIR){
 			p.teleport(p.getLocation().add(0, 0.7, 0));
 		}
-		//trst
 		if(RideManager.map.containsKey(p)){
 			ArmorStand stand = RideManager.map.get(p);
 			stand.remove();
